@@ -1,0 +1,5 @@
+{
+  "name": "AI Return Verification",
+  "description": "An AI-powered application to verify product return claims by analyzing unboxing videos. It checks for tampering, extracts shipping label data, and validates it against a database.",
+  "requestFramePermissions": []
+}
