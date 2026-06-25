@@ -3,12 +3,12 @@
 **ReturnGuard AI** is an intelligent verification system built with React and the Gemini API. It analyzes customer return videos to ensure packages are genuine, tracks the box continuously to prevent tampering, and extracts shipping label data (like AWBs) via OCR to validate against your database claims.
 
 ## ✨ Features
-## Run Locally
 - 📦 **Box Tracking**: Uses AI to ensure the returned box remains in the video frame throughout the recording.
 - 🔍 **Label Extraction**: Automatically reads shipping labels (OCR/QR) and extracts the Air Waybill (AWB) number.
 - 🗄️ **Database Validation**: Cross-checks the extracted video data with database records to securely approve or reject the return claim.
 - ⚡ **Real-time Feedback**: Get instant "Approved" or "Rejected" decisions with detailed step-by-step reasoning.
 **Prerequisites:**  Node.js
+  
 ## 🛠️ Tech Stack
 - **Frontend**: React, TypeScript, Tailwind CSS, Vite
 - **AI Integration**: Google Gemini API (`@google/genai`)
