@@ -1,7 +1,7 @@
 # ReturnGuard AI - Automated Video Return Verification
-This contains everything you need to run your app locally.
+
 **ReturnGuard AI** is an intelligent verification system built with React and the Gemini API. It analyzes customer return videos to ensure packages are genuine, tracks the box continuously to prevent tampering, and extracts shipping label data (like AWBs) via OCR to validate against your database claims.
-View your app in AI Studio: https://ai.studio/apps/drive/1x8nJBszc8WEPLoxmpWlAbaoR-RSzG_Ig
+
 ## ✨ Features
 ## Run Locally
 - 📦 **Box Tracking**: Uses AI to ensure the returned box remains in the video frame throughout the recording.
